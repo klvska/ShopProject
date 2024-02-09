@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: rgb(138, 43, 226);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.btn-zamow{
+  background-color: rgb(138, 43, 226);
+  color: white;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  margin-right: -35px;
+  border-radius: 15px;
+  outline: none;
+  border: 2px solid rgb(82, 10, 116);
+}
+.main {
+  background: url(../img/icons/ronnie-trennie.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 25% 25%;
+  width: 100%;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 40px;
+  }
+}
+h6 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+p > s {
+  color: grey;
+  font-size: 13px;
+}
+
+.anabolic-steroids {
+  height: 45px;
+  width: 35%;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(75, 2, 109);
+  color: white;
+  font-weight: 700;
+}
+
+.anabolic-steroids:hover {
+  background-color: rgb(82, 10, 116);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.supp {
+  width: 150px;
+  height: 150px;
+}
+.card:hover {
+  -webkit-box-shadow: 0px 0px 65px -12px rgba(52, 1, 134, 1);
+  -moz-box-shadow: 0px 0px 65px -12px rgba(52, 1, 134, 1);
+  box-shadow: 0px 0px 65px -12px rgba(52, 1, 134, 1);
+}
+.card:hover .card-body {
+  opacity: 0.5;
+}
+.card .cart {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  font-size: 2.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.card:hover .cart,
+.card:focus .cart {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+.cart-btn {
+  border: none;
+  background: none;
+}
+i {
+  color: rgb(71, 0, 85);
+}
+.quantity{
+  width: 100%;
+}
